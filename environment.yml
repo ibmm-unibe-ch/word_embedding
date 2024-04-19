@@ -1,0 +1,12 @@
+name: word_embedding
+
+channels:
+  - anaconda
+
+dependencies:
+  - gensim
+  - numpy
+  - matplotlib
+  - scipy==1.10.1
+  - wordcloud
+  - jupyterlab conda-forge
