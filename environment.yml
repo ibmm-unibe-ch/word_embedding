@@ -5,8 +5,9 @@ channels:
 
 dependencies:
   - gensim
+  - scipy==1.10.1
+  - scikit-learn conda-forge
   - numpy
   - matplotlib
-  - scipy==1.10.1
   - wordcloud
   - jupyterlab conda-forge
