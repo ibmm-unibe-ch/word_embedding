@@ -2,12 +2,13 @@ name: word_embedding
 
 channels:
   - anaconda
+  - conda-forge
 
 dependencies:
   - gensim
   - scipy==1.10.1
-  - scikit-learn conda-forge
+  - scikit-learn
   - numpy
   - matplotlib
   - wordcloud
-  - jupyterlab conda-forge
+  - jupyterlab
